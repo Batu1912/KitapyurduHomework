@@ -34,7 +34,7 @@ public class LoginPage {
     public void Logout(){
         methods.hoverWithMouse(By.cssSelector(".login.menu.top"));
         methods.waitBySeconds(2);
-        methods.click(By.cssSelector("a[href='https://www.kitapyurdu.com/index.php?route=account/logout']"));
+        methods.click(By.cssSelector(".login ul li:nth-of-type(4)"));
         methods.waitBySeconds(2);
 
 
